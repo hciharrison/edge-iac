@@ -1,8 +1,8 @@
 terraform {
   backend "azurerm" {
-    resource_group_name  = "<ResourceGroupName>"
-    storage_account_name = "<StorageAccountName>"
-    container_name       = "<StorageContainerName>"
+    resource_group_name  = "lh-ashci-edge-iac-rg"
+    storage_account_name = "edgeiacsa01"
+    container_name       = "backend"
     key                  = "sample.tfstate"
   }
 }
