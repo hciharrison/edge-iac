@@ -57,7 +57,7 @@
    aksArc-lnet-defaultGateway  = "<aksArc-lnet-defaultGateway>"
    aksArc-lnet-dnsServers      = ["<aksArc-lnet-dnsServer>"]
    rbacAdminGroupObjectIds     = ["<rbacAdminGroupObjectId1>"]
-    End region of hybrid aks related parameters
+   # End region of hybrid aks related parameters
 
    # Region site manager parameters
    # Check ./doc/Add-Site-Manager.md for more information
