@@ -15,15 +15,15 @@ jobs:
         runs-on: ubuntu-latest
         steps:
          - run: echo "running dev stage"
-    sample:
+    lh-edge-iac:
         uses: ./.github/workflows/site-cd-workflow.yml
         with:
-            working-directory: dev/sample
+            working-directory: dev/lh-edge-iac
         secrets: inherit
         needs: [dev]
     qa:
         name: qa
-        needs: [dev,sample]
+        needs: [dev,lh-edge-iac]
         runs-on: ubuntu-latest
         steps:
          - run: echo "running qa stage"
