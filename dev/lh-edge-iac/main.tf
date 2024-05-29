@@ -47,7 +47,7 @@
    rpServicePrincipalObjectId    = var.rpServicePrincipalObjectId
 
 
-    Region Hybrid AKS related parameters
+   # Region Hybrid AKS related parameters
    aksArc-controlPlaneIp = "10.10.1.203"
 
    // the following value only need to provide if you want to create a new logical network, if not, set aksArc-lnet-usingExistingLogicalNetwork to true and specify the existing logical network name in logicalNetworkName
@@ -59,8 +59,8 @@
    rbacAdminGroupObjectIds     = ["<rbacAdminGroupObjectId1>"]
     End region of hybrid aks related parameters
 
-    Region site manager parameters
-    Check ./doc/Add-Site-Manager.md for more information
+   # Region site manager parameters
+   # Check ./doc/Add-Site-Manager.md for more information
    country = "<country>"
-    End region site manager parameters
+   # End region site manager parameters
  }
