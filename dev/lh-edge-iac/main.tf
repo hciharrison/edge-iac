@@ -34,7 +34,7 @@
 #  ]
    rdmaEnabled                   = false     // Change to true if RDMA is enabled.
    storageConnectivitySwitchless = false     // Change to true if storage connectivity is switchless.
-   enableProvisioners            = true      // Change to false when Arc servers are connected by yourself.
+   enableProvisioners            = false      // Change to false when Arc servers are connected by yourself.
    authenticationMethod          = "Credssp" // or "Default"
    subscriptionId                = var.subscriptionId
    domainAdminUser               = var.domainAdminUser
